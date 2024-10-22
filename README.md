@@ -1,5 +1,15 @@
 
-# HTP Teleop Software
+# HRP Lawnmower Obstacle Avoidance System
+
+This project aims to develop a comprehensive obstacle avoidance system for the **Husqvarna 430x lawnmower**. Three control modes are implemented, providing varying degrees of user interaction and autonomy:
+
+- **Teleoperation**: Full control of the lawnmower is managed by the user.
+- **Semi-Autonomous**: A shared control mode allowing user intervention when necessary.
+- **Fully Autonomous**: The lawnmower operates independently, relying on its decision-making capabilities.
+
+The system includes algorithms for obstacle detection, direction adjustment, dynamic speed control, and advanced decision-making using fuzzy logic. A user interface has been designed to enable seamless switching between operation modes during runtime, enhancing the user experience.
+
+This project delivers a robust, adaptable, and user-friendly obstacle avoidance system for the Husqvarna 430x lawnmower, offering a foundation for future applications in similar products.
 
 This software is designed to run under Linux with Ubuntu 16.04 and ROS Kinetic.
 
@@ -84,9 +94,4 @@ Navigate to the appropriate directory and run the interface:
 ```bash
 cd /path/to/interface_directory
 python interface.py
-```
-
----
-
-This format is clearer, easier to follow, and uses code blocks for commands to improve readability.
 ```
