@@ -95,3 +95,14 @@ Navigate to the appropriate directory and run the interface:
 cd /path/to/interface_directory
 python interface.py
 ```
+
+## Simulation Environment Examples
+
+Below are some examples of the developed simulation environments:
+
+<p align="center">
+  <img src="20178699_supplementary/1.png" alt="Simulation Environment 1" width="30%" />
+  <img src="20178699_supplementary/2.png" alt="Simulation Environment 2" width="30%" />
+  <img src="20178699_supplementary/3.png" alt="Simulation Environment 3" width="30%" />
+</p>
+
